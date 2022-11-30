@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 ul{
     list-style: none;
@@ -72,6 +75,7 @@ header .menu{
     background-color: #122a57;
     color: #fff;
     text-align: center;
+    border: 2px solid #122a57;
     border-radius: 30px;
     width: 220px;
     display: block;
@@ -87,7 +91,7 @@ header .menu{
     color: #122a57;
     text-align: center;
     border-radius: 30px;
-    border: 1px solid;
+    border: 2px solid;
     border-color: #122a57;
     width: 220px;
     display: block;
