@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuacao</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    
+</head>
+<body>
+    <a href="index.html">Voltar</a>
+    <h2>First Child:</h2>
+    <div class="childs">
+        <p>Nesse exemplo apenas o Primeiro filho é estilizado</p>
+        <ul>
+            <li>First Child</li>
+            <li>Second Child</li>
+            <li>Third Child</li>
+          </ul>
+    </div>
+
+
+    <div>
+        <p>Pseudoclasse Enabled:</p>
+        <form action="url_of_form">
+            <label for="FirstField">Email(Habilitado):</label>
+            <br>
+            <input class="emeio" type="text" id="FirstField" value="cuquinha@mail.com"><br>
+          
+            <label for="SecondField">Senha (desabilitado):</label><br>
+            <input type="text" id="SecondField" value="senha" disabled="disabled"><br>
+            <input type="button" value="Enviar">
+          </form>
+    </div>
+
+    <div>
+        <form action="/action_page.php">
+            <p>Selecione sua Linguagem de programação Favorita:</p>
+            <input class="python" type="radio" id="html" name="fav_language" value="HTML">
+            <label  for="html">Python</label><br>
+            <input class="cpp" type="radio" id="cpp" name="fav_language" value="CPP">
+            <label  for="cpp">C++</label><br>
+            <input type="radio" id="java" name="fav_language" value="Java" disabled="disabled">
+            <label for="java">Java (desabilitado)</label>
+    </div>
+
+    <div>
+        <p>Focus</p>
+        <form action="url_of_form">
+            <label for="FirstField">Email(Focus Vermelho):</label>
+            <br>
+            <input class="emeio" type="text" id="FirstField" value="leleco@mail.com"><br>
+            <label for="FirstField">Senha(Focus Amarelo):</label>
+            <br>
+            <input class="senha" type="password" id="FirstField" value="password"><br>
+          </form>
+    </div>
+
+
+
+
+
+</body>
+</html>
